@@ -35,8 +35,8 @@ a{
 }
 
 img{
-	width: 50%;
-	height: 50%;
+	width: 60%;
+	height: 60%;
 }
 
 .speechbubble{
@@ -78,7 +78,7 @@ img{
 }
 
 .mouse{
-	margin-top:15%;
+	margin-top:5%;
 	display:flex;
 	justify-content:center;
 }
