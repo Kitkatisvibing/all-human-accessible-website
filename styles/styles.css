@@ -1,0 +1,153 @@
+/* CSS */
+body{
+	font-family:poppins,helvetica,arial,sans-serif;
+	font-size:16px;
+	text-align:center;
+	background-image:
+		linear-gradient(#3F93B7,#1C5872);
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+header{
+	margin-bottom:2em;
+}
+
+h1{
+	font-size:28px;
+	font-weight:600;
+	display:inline-flex;
+	background-color:#1C5872;
+	border-radius: 20px;
+	padding: 5px 30px 5px 30px;
+}
+
+h2{
+	font-size:20px;
+	font-weight:600;
+}
+
+a{
+	text-decoration:none;
+}
+
+img{
+	width: 50%;
+	height: 50%;
+}
+
+.speechbubble{
+    position: relative;
+    background: white;
+    color: black; 
+    text-align: center;
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.speechbubble::after{
+	content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 0 20px 20px 0;
+    border-color: transparent #fff transparent transparent;
+    bottom: -16px;
+    left: 17%;
+    margin-left: -10px;
+}
+
+.storiesbutton{
+    display: inline-flex;
+	justify-content: center;
+    width: 115px;
+    height: 25px;
+    background: #954BE2;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+.mouse{
+	margin-top:15%;
+	display:flex;
+	justify-content:center;
+}
+
+.menubutton{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color:#292929;
+	opacity:95%
+}
+
+.menu{
+	margin-top:20%;
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	grid-template-rows:1fr 1fr 1fr 1fr;
+	grid-gap:1em;
+}
+
+	.home{
+		background-color:#3D7A95;
+		border: 2px solid #ffcd45;
+		border-radius: 1em;
+		grid-column-start:2;
+	}
+
+	.testing{
+		background-color:#4D7EB7;
+		border: 2px solid #ffcd45;
+		border-radius: 1em;
+		grid-column-start:3;
+	}
+
+	.lessons{
+		background-color:#954BE2;
+		border: 2px solid #ffcd45;
+		border-radius: 1em;
+		grid-column-start:2;
+		grid-row-start:2;
+	}
+
+	.settings{
+		background-color:#06A192;
+		border: 2px solid #ffcd45;
+		border-radius: 1em;
+		grid-column-start:3;
+		grid-row-start:2;
+	}
+
+	.profile{
+		background-color:#EA775E;
+		border: 2px solid #ffcd45;
+		border-radius: 1em;
+		grid-column-start:2;
+		grid-row-start:3;
+	}
+	
+@media screen and (min-width:600px) {
+	.mouse{
+		margin-top:-10%;
+		scale:60%;
+		align-items: flex-start;
+	}
+
+	.speechbubble{
+		display:inline-flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background-color: whitesmoke;
+		border-radius: 20px;
+		padding: 15px 5px;
+	}
+}
