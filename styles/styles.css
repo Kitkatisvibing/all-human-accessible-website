@@ -20,7 +20,7 @@ h1{
 	font-size:28px;
 	font-weight:600;
 	display:inline-flex;
-	background-color:#665fca;
+	background-color:#59BAD9;
 	border-radius: 20px;
 	padding: 5px 30px 5px 30px;
 }
@@ -71,10 +71,10 @@ img{
 	font-weight:600;
 	width: 115px;
 	height: 25px;
-	background: #954BE2;
+	background:#8E47D7;
 	padding: 10px;
 	border-radius: 5px;
-	color: rgb(239, 187, 17);
+	color: #FBF7FE;
 }
 
 .mouse{
