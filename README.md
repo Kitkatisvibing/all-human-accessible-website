@@ -15,18 +15,14 @@ https://kitkatisvibing.github.io/the-client-website/
 
 ## Beschrijving
 
-Op een mobiel ziet de homepage van de website er zo uit. De kleuren komen allemaal direct uit de stylesheet op Figma. De knop 'lets do it' brengt je direct naar de lessons page, en de menu knop brengt je naar het menu.
+Op een mobiel ziet de homepage van de website er zo uit. De kleuren zijn iets aangepast ivm toegankelijkheid. De knop 'lets do it' brengt je direct naar de lessons page, en de menu knop brengt je naar het menu.
 <br><br>
-![image](https://github.com/user-attachments/assets/6d632853-1bb9-4653-b5d7-61632793ee0c)
-![image](https://github.com/user-attachments/assets/c1a67164-f9b8-4e3c-9dd3-8e4537628945)
-<br>
-Via het menu kan je naar alle paginas navigeren. De kleuren van de knoppen komen ook van de stylesheet. De lessons page is nog onder constructie, maar heeft al wel een basis in html.
-<br>
-![image](https://github.com/user-attachments/assets/fba5f3b4-c0a9-4f51-a5af-153205ab2f85)
+![image](https://github.com/user-attachments/assets/8fea8992-525c-435b-82ee-f0f5dba2deaf)
 <br>
 De homepage is voor een deel ook al responsive. De positie van de muis en spraakwolk veranderen om beter op het scherm te passen.
 <br>
-![image](https://github.com/user-attachments/assets/d0fd7a9b-7f3c-4dac-a51d-a4e145b874fe)
+![image](https://github.com/user-attachments/assets/cb3d9ce0-774f-4be1-a2fc-8c154b69b8b3)
+
 
 ## Kenmerken
 In de html van dit project wordt veel gebruik gemaakt van classes en achor tags. Hier is een voorbeeld. 
